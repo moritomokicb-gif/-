@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>モーニング・ブリーフ</title>
+    <link>https://moritomokicb-gif.github.io/-/</link>
+    <language>ja</language>
+    <description>国内外のニュース、マーケット、製造業・FA、名古屋・岐阜の話題を毎朝お届けする個人用ニュース番組。音声:VOICEVOX:玄野武宏、VOICEVOX:No.7</description>
+    <itunes:author>モーニング・ブリーフ</itunes:author>
+    <itunes:image href="https://moritomokicb-gif.github.io/-/cover.png"/>
+    <itunes:category text="News"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>Yes</itunes:block>
+    <item>
+      <title>10月31日(土) 製造業・FA特集(試作版)</title>
+      <description>・9月の工作機械受注が単月で過去最高
+・ファナック、通期営業益を上方修正
+・安川電機、増収も営業減益
+・三菱電機、上期は大幅増益、通期最終は下方修正</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/episodes/MorningBrief_20261031.mp3" length="1638444" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-brief-20261031</guid>
+      <pubDate>Sat, 31 Oct 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>204</itunes:duration>
+    </item>
+  </channel>
+</rss>

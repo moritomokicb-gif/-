@@ -5,7 +5,7 @@
   episodes/MorningBrief_YYYYMMDD.txt(1行目=タイトル、2行目以降=見出し)を置く。
   保持日数(既定30)より古い回は削除する。
 """
-import sys, os, glob, re, html, datetime, subprocess
+import sys, os, glob, re, html, datetime, subprocess, hashlib
 from email.utils import format_datetime
 
 BASE_URL = "https://moritomokicb-gif.github.io/-"
@@ -36,11 +36,12 @@ for mp3 in sorted(glob.glob(os.path.join(root, "episodes", "MorningBrief_*.mp3")
                           "-of", "csv=p=0", mp3], capture_output=True, text=True).stdout.strip()
     secs = int(float(dur or 0))
     name = os.path.basename(mp3)
+    h = hashlib.md5(open(mp3, "rb").read()).hexdigest()[:8]
     items.append(f"""    <item>
       <title>{html.escape(title)}</title>
       <description>{html.escape(body)}</description>
-      <enclosure url="{BASE_URL}/episodes/{name}" length="{os.path.getsize(mp3)}" type="audio/mpeg"/>
-      <guid isPermaLink="false">morning-brief-{m.group(1)}</guid>
+      <enclosure url="{BASE_URL}/episodes/{name}?v={h}" length="{os.path.getsize(mp3)}" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-brief-{m.group(1)}-{h}</guid>
       <pubDate>{format_datetime(d.replace(hour=6))}</pubDate>
       <itunes:duration>{secs}</itunes:duration>
     </item>""")
