@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>モーニング・ブリーフ</title>
+    <link>https://moritomokicb-gif.github.io/-/</link>
+    <language>ja</language>
+    <description>国内外のニュース、マーケット、製造業・FA、名古屋・岐阜の話題を毎朝お届けする個人用ニュース番組。音声:VOICEVOX:玄野武宏、VOICEVOX:No.7</description>
+    <itunes:author>モーニング・ブリーフ</itunes:author>
+    <itunes:image href="https://moritomokicb-gif.github.io/-/cover.png"/>
+    <itunes:category text="News"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>Yes</itunes:block>
+    <item>
+      <title>11月3日(火) 防災庁発足、米中間選挙きょう投票</title>
+      <description>・防災庁が発足、国民に3日分以上の備蓄を緊急要請
+・榛葉幹事長の定数削減めぐる発言にネットで賛否
+・米中間選挙きょう投票、最終調査で民主党優勢
+・イラン・カタール協議は進展なし、ウクライナで支援拠点に爆撃24人死亡
+・日経平均208円安、キオクシア16%安・東エレク5%高
+・WTI原油7%超安、ドル円157円台後半
+・マブチモーター1-9月期は営業益10.6%増
+・レアアース規制停止の期限まで1週間、銅は反発
+・岐阜市歴史博物館がきょうリニューアルオープン
+・名古屋・栄でビル窓清掃中の男性が転落死</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/episodes/MorningBrief_20261103.mp3?v=bc3f5242" length="4874493" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-brief-20261103-bc3f5242</guid>
+      <pubDate>Tue, 03 Nov 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>609</itunes:duration>
+    </item>
+    <item>
+      <title>11月2日(月) 米中間選挙へ最終盤、レアアース規制停止期限迫る</title>
+      <description>・福岡市長選に戦後最多13人、熊本市長選は5人の争い
+・衆院定数削減、与党の比例45減に野党反対で平行線
+・米中間選挙あす投票、事前投票5000万人超
+・米ロ外相が首脳接触の可能性を協議
+・NYダウ572ドル安、インテル28%安で半導体株売り
+・今週は米雇用統計とトヨタなど国内決算
+・FA大手は週末に新たな発表なし、半導体投資の行方に注目
+・中国レアアース規制の停止措置、11月10日に期限
+・全日本大学駅伝、早稲田大が16年ぶり6度目の優勝
+・高山市が市制90周年、瑞浪の化石が新種ミズナミジカに</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/episodes/MorningBrief_20261102.mp3?v=d4fa95b8" length="5076367" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-brief-20261102-d4fa95b8</guid>
+      <pubDate>Mon, 02 Nov 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>634</itunes:duration>
+    </item>
+    <item>
+      <title>11月1日(日) 定数削減に野党反発、米イランが対話へ</title>
+      <description>・衆院定数削減の3党合意に野党から反対相次ぐ
+・エネルギー補助、ガソリンは12月から段階縮小
+・米イラン、カタールで対話の動き ホルムズ再開案も
+・イスラエル、10日に新議会 連立交渉は難航の見方
+・NY株急落、ナスダック2.86%安 インテル29%安
+・三菱電機上期営業益60%増、通期純利益は下方修正
+・中国レアアース規制の停止措置、11月10日に期限
+・住友電工が経常益見通し上方修正、銅建値238万円
+・全日本大学駅伝、今日熱田神宮をスタート
+・昭和区で歩行者重体事故、天白区でアパート火災</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/episodes/MorningBrief_20261101.mp3?v=16884ab2" length="5866728" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-brief-20261101-16884ab2</guid>
+      <pubDate>Sun, 01 Nov 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>733</itunes:duration>
+    </item>
+    <item>
+      <title>10月31日(土) 日銀が物価目標到達を認定、衆院定数31削減へ</title>
+      <description>・自維国が衆院定数31削減で合意、今国会で法案提出へ
+・食料品の消費税減税法案、4日に委員会質疑
+・イスラエル総選挙、最終結果でも両陣営過半数届かず
+・米イラン戦争、ホルムズ海峡でタンカーに吸着機雷
+・日銀が金利据え置き、基調物価2%到達を初めて認定
+・日経平均1369円安、インテル急落で半導体株売り
+・キーエンス上期営業益50%増、日本精工が上方修正
+・TDK売上初の3兆円超え予想、LME銅は月間下落へ
+・名古屋市東区で母娘刺傷、52歳の弟を逮捕
+・ドラゴンズ2軍移転、岐阜県内3市が2次提案</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/episodes/MorningBrief_20261031.mp3?v=67bb02bb" length="5085771" type="audio/mpeg"/>
+      <guid isPermaLink="false">morning-brief-20261031-67bb02bb</guid>
+      <pubDate>Sat, 31 Oct 2026 06:00:00 +0900</pubDate>
+      <itunes:duration>635</itunes:duration>
+    </item>
+  </channel>
+</rss>
