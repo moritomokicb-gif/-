@@ -15,7 +15,7 @@ args = [a for a in sys.argv[1:] if a != "--check"]
 CHECK = "--check" in sys.argv
 src = args[0]
 out = args[1] if len(args) > 1 and not CHECK else None
-ids = args[2] if len(args) > 2 else "888753760,1878365376"  # まお ノーマル / コハク ノーマル
+ids = args[2] if len(args) > 2 else "888753760,1388823424"  # まお ノーマル / 凛音エル ノーマル
 URL = args[3] if len(args) > 3 else "http://127.0.0.1:10101"
 SPK = dict(zip("AB", [int(x) for x in ids.split(",")]))
 
