@@ -1,6 +1,7 @@
 """episodes/ の mp3 と見出しファイルから feed.xml と index.html を作り直す。
 
-使い方: python3 scripts/update_feed.py <公開ディレクトリ> [保持日数]
+使い方: python3 scripts/update_feed.py <公開ディレクトリ> [保持日数] [番組キー]
+  番組キー: brief(既定、モーニング・ブリーフ)/ run(ランニング・トーク。公開ディレクトリは site/run を渡す)
   公開ディレクトリには episodes/MorningBrief_YYYYMMDD.mp3 と
   episodes/MorningBrief_YYYYMMDD.txt(1行目=タイトル、2行目以降=見出し)を置く。
   保持日数(既定30)より古い回は削除する。
@@ -8,9 +9,16 @@
 import sys, os, glob, re, html, datetime, subprocess, hashlib
 from email.utils import format_datetime
 
-BASE_URL = "https://moritomokicb-gif.github.io/-"
-TITLE = "モーニング・ブリーフ"
-DESC = "国内外のニュース、マーケット、製造業・FA、名古屋・岐阜の話題を毎朝お届けする個人用ニュース番組。音声:VOICEVOX:玄野武宏、VOICEVOX:No.7"
+SHOWS = {
+    "brief": dict(base="https://moritomokicb-gif.github.io/-", title="モーニング・ブリーフ", prefix="MorningBrief",
+                  guid="morning-brief", hour=6, category="News",
+                  desc="国内外のニュース、マーケット、製造業・FA、名古屋・岐阜の話題を毎朝お届けする個人用ニュース番組。音声:VOICEVOX:玄野武宏、VOICEVOX:No.7"),
+    "run": dict(base="https://moritomokicb-gif.github.io/-/run", title="ランニング・トーク", prefix="RunTalk",
+                guid="run-talk", hour=5, category="Technology",
+                desc="テック・ガジェット、アニメ・サブカル、そしてニュースの裏側を考える約30分の個人用トーク番組。音声:VOICEVOX:玄野武宏、VOICEVOX:No.7"),
+}
+SHOW = SHOWS[sys.argv[3] if len(sys.argv) > 3 else "brief"]
+BASE_URL, TITLE, DESC, PREFIX = SHOW["base"], SHOW["title"], SHOW["desc"], SHOW["prefix"]
 JST = datetime.timezone(datetime.timedelta(hours=9))
 
 root = sys.argv[1]
@@ -18,7 +26,7 @@ keep_days = int(sys.argv[2]) if len(sys.argv) > 2 else 30
 today = datetime.datetime.now(JST).date()
 
 items = []
-for mp3 in sorted(glob.glob(os.path.join(root, "episodes", "MorningBrief_*.mp3")), reverse=True):
+for mp3 in sorted(glob.glob(os.path.join(root, "episodes", f"{PREFIX}_*.mp3")), reverse=True):
     m = re.search(r"(\d{8})\.mp3$", mp3)
     if not m:
         continue
@@ -30,7 +38,7 @@ for mp3 in sorted(glob.glob(os.path.join(root, "episodes", "MorningBrief_*.mp3")
             os.remove(txt)
         continue
     lines = open(txt, encoding="utf-8").read().strip().splitlines() if os.path.exists(txt) else []
-    title = lines[0] if lines else f"{d:%Y年%-m月%-d日}のモーニング・ブリーフ"
+    title = lines[0] if lines else f"{d:%Y年%-m月%-d日}の{TITLE}"
     body = "\n".join(lines[1:])
     dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                           "-of", "csv=p=0", mp3], capture_output=True, text=True).stdout.strip()
@@ -41,8 +49,8 @@ for mp3 in sorted(glob.glob(os.path.join(root, "episodes", "MorningBrief_*.mp3")
       <title>{html.escape(title)}</title>
       <description>{html.escape(body)}</description>
       <enclosure url="{BASE_URL}/episodes/{name}?v={h}" length="{os.path.getsize(mp3)}" type="audio/mpeg"/>
-      <guid isPermaLink="false">morning-brief-{m.group(1)}-{h}</guid>
-      <pubDate>{format_datetime(d.replace(hour=6))}</pubDate>
+      <guid isPermaLink="false">{SHOW['guid']}-{m.group(1)}-{h}</guid>
+      <pubDate>{format_datetime(d.replace(hour=SHOW["hour"]))}</pubDate>
       <itunes:duration>{secs}</itunes:duration>
     </item>""")
 
@@ -53,9 +61,9 @@ feed = f"""<?xml version="1.0" encoding="UTF-8"?>
     <link>{BASE_URL}/</link>
     <language>ja</language>
     <description>{html.escape(DESC)}</description>
-    <itunes:author>モーニング・ブリーフ</itunes:author>
+    <itunes:author>{TITLE}</itunes:author>
     <itunes:image href="{BASE_URL}/cover.png"/>
-    <itunes:category text="News"/>
+    <itunes:category text="{SHOW['category']}"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
 {chr(10).join(items)}
