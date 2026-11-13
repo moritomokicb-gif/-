@@ -1,4 +1,10 @@
-import sys, io, subprocess, numpy as np, soundfile as sf, pyopenjtalk
+import sys, io, os, subprocess, numpy as np, soundfile as sf, pyopenjtalk
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    from yomi import load as _load_yomi, apply as _apply_yomi
+    YOMI = _load_yomi()
+except ImportError:
+    YOMI, _apply_yomi = [], lambda t, _: t
 from voicevox_core.blocking import Onnxruntime, OpenJtalk, Synthesizer, VoiceModelFile
 # 使い方: make_podcast.py 台本 出力mp3 [vvmファイル(カンマ区切り)] [話者ID A,B]
 # 例(ランニング・トーク): make_podcast.py s.txt o.mp3 0.vvm,1.vvm 8,14
@@ -17,6 +23,7 @@ for line in open(src, encoding="utf-8"):
     if "|" not in line:
         continue
     who, text = line.split("|", 1)
+    text = _apply_yomi(text, YOMI)
     q = syn.create_audio_query(text, SPK.get(who, SPK_IDS[0]))
     q.speed_scale = 1.1
     q.post_phoneme_length = 0.25
