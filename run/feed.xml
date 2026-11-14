@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>ランニング・トーク</title>
+    <link>https://moritomokicb-gif.github.io/-/run/</link>
+    <language>ja</language>
+    <description>テック・ガジェット、アニメ・サブカル、そしてニュースの裏側を考える約30分の個人用トーク番組。音声:AivisSpeech まお、みちのくあいり</description>
+    <itunes:author>ランニング・トーク</itunes:author>
+    <itunes:image href="https://moritomokicb-gif.github.io/-/run/cover.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>Yes</itunes:block>
+    <item>
+      <title>11月14日(土) 円安160円、止められるのは誰か</title>
+      <description>ジャンル:ニュースの裏側
+・27兆円の介入でも戻ってきた160円、介入の仕組みと歴史
+・アメリカの利上げ観測と日米の金利差
+・デジタル赤字、ニーサ、里帰りしない海外のもうけ
+・長期金利の上昇と財政をめぐる見方
+・円安で得する人、損する人と、12月の2つの会合</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_yen_20261114.mp3?v=a5add948" length="15954892" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261114-a5add948</guid>
+      <pubDate>Sat, 14 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>1994</itunes:duration>
+    </item>
+  </channel>
+</rss>
