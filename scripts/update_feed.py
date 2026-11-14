@@ -15,7 +15,7 @@ SHOWS = {
                   desc="国内外のニュース、マーケット、製造業・FA、名古屋・岐阜の話題を毎朝お届けする個人用ニュース番組。音声:VOICEVOX:玄野武宏、VOICEVOX:No.7"),
     "run": dict(base="https://moritomokicb-gif.github.io/-/run", title="ランニング・トーク", prefix="RunTalk",
                 guid="run-talk", hour=5, category="Technology",
-                desc="テック・ガジェット、アニメ・サブカル、そしてニュースの裏側を考える約30分の個人用トーク番組。音声:VOICEVOX:玄野武宏、VOICEVOX:No.7"),
+                desc="テック・ガジェット、アニメ・サブカル、そしてニュースの裏側を考える約30分の個人用トーク番組。音声:AivisSpeech まお、みちのくあいり"),
 }
 SHOW = SHOWS[sys.argv[3] if len(sys.argv) > 3 else "brief"]
 BASE_URL, TITLE, DESC, PREFIX = SHOW["base"], SHOW["title"], SHOW["desc"], SHOW["prefix"]
