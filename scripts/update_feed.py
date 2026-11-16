@@ -26,7 +26,8 @@ keep_days = int(sys.argv[2]) if len(sys.argv) > 2 else 30
 today = datetime.datetime.now(JST).date()
 
 items = []
-for mp3 in sorted(glob.glob(os.path.join(root, "episodes", f"{PREFIX}_*.mp3")), reverse=True):
+for mp3 in sorted(glob.glob(os.path.join(root, "episodes", f"{PREFIX}_*.mp3")),
+                  key=lambda p: (re.search(r"(\d{8})\.mp3$", p) or re.search("", "")).group(0) + os.path.basename(p), reverse=True):
     m = re.search(r"(\d{8})\.mp3$", mp3)
     if not m:
         continue
