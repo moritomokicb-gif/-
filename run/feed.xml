@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>ランニング・トーク</title>
+    <link>https://moritomokicb-gif.github.io/-/run/</link>
+    <language>ja</language>
+    <description>テック・ガジェット、アニメ・サブカル、そしてニュースの裏側を考える約30分の個人用トーク番組。音声:AivisSpeech まお、みちのくあいり</description>
+    <itunes:author>ランニング・トーク</itunes:author>
+    <itunes:image href="https://moritomokicb-gif.github.io/-/run/cover.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>Yes</itunes:block>
+    <item>
+      <title>11月28日(土) ホロライブはなぜゲームで稼ぎ始めたのか</title>
+      <description>ジャンル:アニメ&amp;サブカル
+・売上横ばいで利益74パーセント増、ホロドリが変えた売上の質
+・グッズとライセンス、原価率が10ポイント下がった理由
+・人にたよる商売の弱さと、卒業・独立の新しい形
+・エニーカラーの「規律ある起用」とカバーの「箱で稼ぐ」戦略
+・ヒット頼み、ファンの財布、タレントへの分配という残る疑問</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261128.mp3?v=cb95502a" length="31845190" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261128-cb95502a</guid>
+      <pubDate>Sat, 28 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>1990</itunes:duration>
+    </item>
+    <item>
+      <title>11月27日(金) メガネはスマホの次になれるのか</title>
+      <description>ジャンル:ガジェット&amp;プロダクト
+・売れているのは「画面のない」メガネ メタが9割超、700万台の理由
+・画面を載せる壁 重さ・電池・熱・導波路と量産
+・グーグルとサムスンが12月10日に参戦 スマホの次の入り口とエーアイの陣取り合戦
+・プライバシーと「毎日使うのか」問題</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261127.mp3?v=4351829c" length="15749581" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261127-4351829c</guid>
+      <pubDate>Fri, 27 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>1968</itunes:duration>
+    </item>
+    <item>
+      <title>11月26日(木) 子どものSNS、年齢で区切れば守れるのか</title>
+      <description>ジャンル:テクノロジーと社会
+・オーストラリア16歳未満禁止の1年、470万アカウント削除でも8割が利用継続
+・年齢はどう確かめる? 自己申告、身分証、AI顔推定、OS側の年齢シグナル
+・フランス違憲判断、EU13歳案、日本は「一律規制より事業者責任」へ
+・賛成派の「公平さ」と慎重派の「居場所・プライバシー」</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261126.mp3?v=f18abe78" length="15812902" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261126-f18abe78</guid>
+      <pubDate>Thu, 26 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>1976</itunes:duration>
+    </item>
+    <item>
+      <title>11月25日(水) 三菱電機はなぜ23年続いた看板を作り直したのか</title>
+      <description>ジャンル:テック&amp;ビジネス
+・好調なのに値上げ、ACサーボ20%の理由と物の商売の宿命
+・イーファクトリーからセレンディオートメーションへ、人が判断する改善からエーアイが判断する自律化へ
+・ラダーを下書きするエーアイ、ソニーと作るエーアイの目、聴診器としてのサーボ
+・上はシーメンスの仮想PLC、下は中国シェア3割のイノバンス 挟まれる日本のFA
+・名前だけの刷新か、標準化と囲い込みの壁</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261125.mp3?v=6e94cd5d" length="16287495" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261125-6e94cd5d</guid>
+      <pubDate>Wed, 25 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>2035</itunes:duration>
+    </item>
+    <item>
+      <title>11月24日(火) レアアース規制は本当に止まったのか</title>
+      <description>ジャンル:ニュースの裏側
+・停止は1月10日まで、でも止まったのは二階部分だけ 規制の三階建て構造
+・日本向けの両用品目規制と40社のリスト、隠し味の原料はほぼゼロ
+・中国の中と外で19倍、二つの値段の世界と完成品で稼ぐ戦略
+・米国の最低価格、リナスとの長期契約、南鳥島の泥、減ジスプロシウム技術</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261124.mp3?v=9993a3c8" length="31548021" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261124-9993a3c8</guid>
+      <pubDate>Tue, 24 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>1971</itunes:duration>
+    </item>
+    <item>
+      <title>11月23日(月) GTA6はなぜ一日で約6000億円を稼げたのか</title>
+      <description>ジャンル:アニメ&amp;サブカル
+・発売初日37億9000万ドル、前作の4倍超を生んだ13年分の期待
+・開発費は非公表、固定費が巨大で追加1本はほぼタダというゲームの稼ぎ方
+・オンラインとPC版がこれから、初日の売上は「入場料」
+・ひとり勝ちの影響:他社の発売回避、大作競争、開発現場の働き方</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261123.mp3?v=89a0f84c" length="16219577" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261123-89a0f84c</guid>
+      <pubDate>Mon, 23 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>2027</itunes:duration>
+    </item>
+    <item>
+      <title>11月22日(日) 13万円のランニングウォッチは何が違うのか</title>
+      <description>ジャンル:ガジェット&amp;プロダクト
+・画面と電池のせめぎあい、エムアイピーと有機イーエル
+・デュアルバンドのジーピーエスと手首の心拍、縮まる性能差
+・ガーミンの利益率とカロスの低価格戦略、サブスクの行方
+・使い切れるかどうかで決まる、時計の値段の中身</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261122.mp3?v=afe3cc0f" length="15825232" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261122-afe3cc0f</guid>
+      <pubDate>Sun, 22 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>1978</itunes:duration>
+    </item>
+    <item>
+      <title>11月21日(土) エーアイは若手の仕事の入り口を消すのか</title>
+      <description>ジャンル:テクノロジーと社会
+・アメリカのデータ:エーアイの影響を受けやすい職種で22〜25歳の雇用が約19%少ない
+・本当にエーアイのせいか:リモートワーク、雇わない辞めない市場、エーアイウォッシング
+・日本では:席は守られても「経験の質」が薄くなる懸念、指導負担は約8割で増加
+・新人に求められる力のシニア化と、30代エンジニアの暗黙知の価値</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261121.mp3?v=e8e99015" length="31809663" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261121-e8e99015</guid>
+      <pubDate>Sat, 21 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>1988</itunes:duration>
+    </item>
+    <item>
+      <title>11月20日(金) アンソロピック上場、投資家は何にお金を払ったのか</title>
+      <description>ジャンル:テック&amp;ビジネス
+・史上最大813億ドルの上場、初日は公開価格から17パーセント高
+・稼ぎ方:会社向けの従量課金が8割、売上は1年で12倍
+・使い道:計算機代の効率改善と、約9000億ドルの将来契約
+・誰が動かすのか:長期利益信託と創業者が握る議決権
+・反対の見方:割高論、値下げ競争、お金のぐるぐる構造</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261120.mp3?v=0a196c0d" length="16139537" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261120-0a196c0d</guid>
+      <pubDate>Fri, 20 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>2017</itunes:duration>
+    </item>
+    <item>
+      <title>11月19日(木) 議員を31人減らすと、一票はどう変わるのか</title>
+      <description>ジャンル:ニュースの裏側
+・比例だけ削る理由と、定数削減30年の経緯
+・節約効果は約30億円、それでも賛成が多い理由
+・ドント式から修正サンラグ式へ、議席の「丸め方」が変わる
+・自民の占有率は上がる、過半数と3分の2のライン
+・政治とカネとの順番、人口を理由にする説明への疑問</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261119.mp3?v=5709b0e4" length="16256775" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261119-5709b0e4</guid>
+      <pubDate>Thu, 19 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>2032</itunes:duration>
+    </item>
+    <item>
+      <title>11月18日(水) アニメは4兆円を稼ぐのに、なぜ作る側は苦しいのか</title>
+      <description>ジャンル:アニメ&amp;サブカル
+・過去最高4兆4491億円、スタジオに届くのは1割ちょっと
+・製作委員会と制作会社、設計図を持つのは誰か
+・元請けと専門スタジオ、3社に1社が赤字のピラミッド
+・アニメーターの年収と、公取委の新しい指針</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261118.mp3?v=6f17f8af" length="16234832" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261118-6f17f8af</guid>
+      <pubDate>Wed, 18 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>2029</itunes:duration>
+    </item>
+    <item>
+      <title>11月17日(火) エーアイはなぜパソコンを高くするのか</title>
+      <description>ジャンル:ガジェット&amp;プロダクト
+・ウェハーを3倍食べるエイチビーエムと、メモリ不足の仕組み
+・キオクシアとマイクロンの記録的決算、お金はどこへ流れたか
+・値上げとこっそりスペックダウン、スマホとパソコンの出荷減
+・ナンドは値下がり、ディーラムは値上がり、潮目はどこに</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261117.mp3?v=125e7172" length="32049154" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261117-125e7172</guid>
+      <pubDate>Tue, 17 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>2003</itunes:duration>
+    </item>
+    <item>
+      <title>11月16日(月) 協働ロボットはなぜ工場の主役になれないのか</title>
+      <description>ジャンル:テクノロジーと社会
+・協働ロボットとは何か 柵をなくした2013年の規制見直しと安全の4方式
+・腕だけでは働けない半完成品 本体の2〜3倍かかる導入費
+・中国勢の値下げ競争と、元祖ユニバーサルロボットの苦戦
+・エプソン初の協働ロボットとアジャイル・ロボッツ800億円調達の狙い
+・反対の見方 境目が消える協働ロボット、期待先行の人型、仕事への影響</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261116.mp3?v=75b35423" length="15347923" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261116-75b35423</guid>
+      <pubDate>Mon, 16 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>1918</itunes:duration>
+    </item>
+    <item>
+      <title>11月15日(日) エヌビディアはファン氏ひとりで強かったのか</title>
+      <description>ジャンル:テック&amp;ビジネス
+・調査開始から辞任まで、暫定シーイーオーのクレス氏と初の議長
+・株価は一時14パーセント安、キーマンリスクの値段
+・クーダの堀と、出資でお客さんを育てるお金の流れ
+・イビデン、東京エレクトロン、フィジカルエーアイと日本のものづくり
+・輸出規制、後任選び、17日の決算とアンソロピック上場</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_20261115.mp3?v=0a4c21c3" length="15868282" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261115-0a4c21c3</guid>
+      <pubDate>Sun, 15 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>1983</itunes:duration>
+    </item>
+    <item>
+      <title>11月14日(土) 円安160円、止められるのは誰か</title>
+      <description>ジャンル:ニュースの裏側
+・27兆円の介入でも戻ってきた160円、介入の仕組みと歴史
+・アメリカの利上げ観測と日米の金利差
+・デジタル赤字、ニーサ、里帰りしない海外のもうけ
+・長期金利の上昇と財政をめぐる見方
+・円安で得する人、損する人と、12月の2つの会合</description>
+      <enclosure url="https://moritomokicb-gif.github.io/-/run/episodes/RunTalk_yen_20261114.mp3?v=a5add948" length="15954892" type="audio/mpeg"/>
+      <guid isPermaLink="false">run-talk-20261114-a5add948</guid>
+      <pubDate>Sat, 14 Nov 2026 05:00:00 +0900</pubDate>
+      <itunes:duration>1994</itunes:duration>
+    </item>
+  </channel>
+</rss>
